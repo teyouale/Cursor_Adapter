@@ -1,0 +1,2 @@
+rootProject.name='Cursor_Adapter'
+include ':app'
