@@ -6,10 +6,22 @@
     tools:context=".SMSConversationsListFragment">
 
     <!-- TODO: Update blank fragment layout -->
+
     <TextView
-        android:id="@+id/a"
+        android:id="@+id/text_empty"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="List_is_empty"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/rows_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:choiceMode="none"
+        android:visibility="invisible"
+        android:fastScrollEnabled="true"
+        />
 
 </FrameLayout>
